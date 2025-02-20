@@ -47,6 +47,7 @@ header {
 
 .header_btn {
     cursor: pointer;
+    font-size: 2em;
 }
 
 .header_btn:hover {
@@ -85,6 +86,10 @@ section h1 {
 
 .section_item img {
     height: 100%;
+    cursor: pointer;
+}
+.section_item:hover {
+    transform: scale(1.05);
 }
 
 
