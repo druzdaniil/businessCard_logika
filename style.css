@@ -165,6 +165,67 @@ footer {
     background-position: center;
 }
 
+.slider-section {
+    background-color: black;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.slider-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.frame {
+    width: 768px;
+    height: 432px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.slider {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    transition: 0.75s ease-in-out;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.arrow {
+    height: 64px;
+    width: 64px;
+    cursor: pointer;
+
+    &.arrow-left{
+        transform: rotate(180deg);
+    }
+}
+
+.slider-footer {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 7px;
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 3px solid white;
+    cursor: pointer;
+
+    &.active {
+        background: white;
+    }
+}
 
 .footer_content {
     width: 100%;
